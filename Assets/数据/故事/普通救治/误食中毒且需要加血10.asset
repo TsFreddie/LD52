@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16c1bfbc38f0d7347a592a875b39b254, type: 3}
+  m_Name: "\u8BEF\u98DF\u4E2D\u6BD2\u4E14\u9700\u8981\u52A0\u884010"
+  m_EditorClassIdentifier: 
+  storyPrefab: []
+  storyValueMin: 2
+  storyValueMax: 10
+  storyElement: 1
+  targetElement: 0
+  successSideEffects: 02000000
+  enableKarma: 1
+  successKarma:
+    text: is feeling better.
+    ending: 0
+    subStories: []
+  failedSideEffectKarma:
+    text: 
+    ending: 0
+    subStories: []
+  failedKarma:
+    text: is feeling worse.
+    ending: 1
+    subStories:
+    - {fileID: 11400000, guid: f21577b3785b0af44b1b2219c0810188, type: 2}
